@@ -53,7 +53,7 @@ app.get('/projects', (req, res) => {
 
 app.get('/about', (req, res) => {
   res.render('about.hbs', {
-    pageTitle: 'HBS Dynamic'
+    pageTitle: 'About Page'
   });
 });
 
